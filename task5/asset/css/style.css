@@ -1,0 +1,291 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    overflow:hidden;
+    background-color:#ffffff
+}
+
+.container{
+    position:relative;
+    width:100vw;
+    height:100vh;
+    overflow-y:scroll;
+    
+}
+
+.nav-bar{
+    position: fixed;
+    z-index: 2;
+    top: 0px;
+    left: 0px;
+    width: 99.21%;
+    height: 14%;
+    box-shadow: rgb(0 0 0 / 45%) 2px 2px 2px;
+    margin: 0%;
+    display: flex;
+    background-color: white;
+}
+
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+    margin-left: 4%;
+}
+
+.logo-img{
+    width: 28%;
+    height: 73%;
+}
+
+.nav-items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+    margin-left: 23%;
+}
+
+.nav-item{
+    text-decoration: none;
+    color: #686868;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    margin-left: 7%;
+}
+
+
+.home-content{
+    position: absolute;
+    top: 17%;
+    left: 0;
+    width: 97%;
+    height: 75%;
+    margin: 1%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+   
+}
+
+.left-section{
+    width: 57%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 7%;
+}
+
+.main-heading{
+    width: 71%;
+    height: 30%;
+    margin-left: 20%;
+    margin-top: 14%;
+    
+}
+
+.golden{
+    color:#eebc76;
+}
+
+.sub-heading{
+    margin-left: 20%;
+    margin-top: 11.5%;
+    width: 57%;
+    font-size: 24px;
+    font-family: 'Lexend', sans-serif;
+    color:#a99b96;
+}
+
+h1{
+    font-size: 59px;
+    font-family: 'Raleway', sans-serif;
+    color: #534847;
+}
+
+.right-section{
+    background: url(hero-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 729px;
+    position: relative;
+    margin-top: 4%;
+    margin-right: 5%;
+}
+
+
+
+.arrow-bar{
+    
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 40%;
+    height: 13.6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+}
+
+.arrow{
+    width: 24%;
+    height: 59%;
+    margin: 6% 1.5%;
+}
+
+
+.about-content{
+    position: absolute;
+    top: 102%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #faf8fb;
+    margin-top: 2%;
+}
+
+.left-about-section{
+    width: 48%;
+    height: 95%;
+    margin-right: 7%;
+    margin-top: 2%;
+}
+
+.left-about-section img{
+    width: 100%;
+    margin-left: 4%;
+}
+
+.right-about-section{
+    width: 40%;
+    height: 90%;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+}
+
+.about-heading{
+    margin-bottom: 16%;
+    margin-top: 7%;
+}
+
+.about-heading h2{
+    font-size: 64px;
+    font-family: 'Raleway', sans-serif;
+    color: #534847;
+}
+
+.para{
+    margin-bottom: 6%;
+    width: 98%;
+    font-size: 21px;
+    font-family: 'Lexend', sans-serif;
+    color: #9f9c9b;
+    
+}
+
+.button{
+    width: 36%;
+    height: 8%;
+}
+
+
+.button button{
+    background-color: #e9b643;
+    color: white;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+.admission-content{
+    position: absolute;
+    top:205%;
+    height:100%;
+    left:1%;
+    width:97%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.admission-main-heading{
+    margin-top: 7%;
+    margin-left: 12%;
+    text-align: center;
+} 
+
+ .admission-main-heading h2{
+    font-size: 59px;
+    font-family: 'Raleway', sans-serif;
+    color: #534847;
+    width: 69%;
+    text-align: center;
+} 
+
+
+.admission-icons{
+    display: flex;
+    width: 100%;
+    height: 44%;
+    margin-top: 7%;
+    justify-content: space-around;
+}
+
+.icon{
+    width: 16%;
+    height: 101%;
+    
+    text-align: center;
+}
+
+.icon img{
+    height: 31%;
+    width: 46%;
+}
+
+.icon .icon-heading{
+    margin-top: 20%;
+    margin-bottom: 12%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.icon .icon-heading h2{
+    font-family: 'Raleway', sans-serif;
+}
+
+.icon .icon-subheading{
+    margin: 0% 19%;
+    font-family: 'Lexend', sans-serif;
+    color:#b39990;
+}
+
+
+
+
+
+
+

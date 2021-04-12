@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(219, 215, 215);
+}
+
+.container{
+    position: relative; 
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+.sidebar{
+    position: absolute;
+    left: 0;
+    top: 0; 
+    height: 100%;
+    width: 20%;
+    background-color: rgb(226, 175, 126)
+}
+
+.heading{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    margin-top: 3%;
+}
+
+.logo{
+    width:21%;
+    height:5%;
+    margin-left: 7%;
+    margin-right: 2%;
+}
+
+.first-heading{
+    margin-top: 2%;
+    color: maroon;
+    font-size: 33px;
+}
+
+.li{
+    margin-top: 6%;
+    margin-bottom: 6%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 3%;
+}
+
+.list-item{
+   text-decoration: none;
+   color: black;
+   margin-left: 13%;
+   font-size: 22px;
+}
+
+.li:hover{
+    background:maroon;
+    color:white;
+}
+
+.list-item:hover{
+    color:white;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 20%;
+    top: 0;
+    width: 80%;
+    height: 9%;
+    border-bottom: 2px solid grey;
+    background-color: white;
+   
+}
+
+.search-bar{
+    height: 100%;
+    width: 65%;
+    font-size: 19px;
+}
+
+input{
+    height: 100%;
+    width: 65%;
+    font-size: 19px;
+
+    border: none;
+}
+
+.nav-icon{
+    width: 3%;
+    height: 29%;
+    margin: 1%;
+    color: maroon;
+    cursor: pointer;
+}
+
+.profile-pic{
+    width: 4%;
+    height: 54%;
+    border-radius: 50%;
+    margin-right: 2%;
+}
+
+.name{
+    text-decoration: none;
+    color: grey;
+    margin-top: 2%;
+}
+
+.footer{
+    
+    position: absolute;
+    left: 20%;
+    top: 93%;
+    width: 80%;
+    height: 7%;
+    background: rgb(131, 125, 125);
+}
+
+.last-logo{
+    float: left;
+    width: 6%;
+    height: 52%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 1.5%;
+}
+
+.last-heading{
+    color: maroon;
+    float: left;
+    margin-top: 2%;
+}
+
+p{
+    float: right;
+    margin: 2%;
+}
+
+
+.sub-nav{
+    position: absolute;
+    left: 20%;
+    top: 9%;
+    width: 80%;
+    height: 6%;
+    background-color: rgb(235, 229, 229);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.light{
+    color: grey;
+    font-size: 21px;
+    margin: 1%;
+}
+
+.dark{
+    margin: 1%;
+    font-size: 21px;
+}
+
+
+.main{
+    position: absolute;
+    left: 21%;
+    top: 17%;
+    width: 78%;
+    height: 74%;
+    background-color: white;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.user{
+   
+    height: 10%;
+    
+    padding: 1%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.user-image{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-right: 2%;
+}
+
+.top-images-box{
+    height: 70vh;
+    width: 100vw;
+    padding: 0% 1%;
+    margin: 1% 0%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.large-image{
+    width: 60vw;
+    height: 100%;
+    margin-right: 0.8%;
+}
+
+
+.small-images-box{
+    width:25vw;
+    padding-right: 1%;
+    height:100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.small-images{
+    width: 100%;
+    height: 25%;
+    margin-bottom: 4%;
+    padding-right: 37%;
+}
+
+.like{
+    width: 100%;
+    height: 4%;
+    margin: 3% 0%;
+    margin-left: 1%;
+}
+
+.card-last{
+    margin: .5%;
+    color: grey;
+}
+
+.para{
+    width: 100%;
+    height: 20%;
+    margin: 2% 0%;
+}
+
+h3{
+    margin:2%;
+}
+
+.para-1{
+    margin: 0% 2%;
+}
+
+.para-2{
+  margin-top: 2%;
+}
+
+.app{
+    width:100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: space-around;
+}
+
+.app-heading{
+    margin: 0% 2%;
+    color: grey;
+}
+
+.app-image{
+    width: 22%;
+    height: 78%;
+    margin: 2%;
+}
+
+.last-section-heading{
+    margin: 2% 2%;
+    color: grey;
+}
+
+.last-section{
+    height: 29%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2%;
+}
+
+
+.last-section-img{
+    width: 26%;
+    height: 100%;
+    margin-right: 2%;
+}
