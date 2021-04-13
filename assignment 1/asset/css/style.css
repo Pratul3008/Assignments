@@ -399,7 +399,7 @@ h1{
     border:2px solid blue;
 }
 
-.gallery-heading h2 a{
+.gallery-heading h2{
     font-size: 54px;
     font-weight: bolder;
     font-family: 'Raleway', sans-serif;
@@ -450,14 +450,60 @@ h1{
 }
 
 .contact-info{
-    width: 640px;
+    width: 35%;
     height: 693px;
     background-color: white;
     border: 2px solid black;
     position: absolute;
-    top: 90px;
-    left: 157px;
+    top: 11%;
+    left: 10.5%;
     
+}
+
+.contact-info h2{
+    font-size: 50px;
+    font-family: 'Raleway', sans-serif;
+    margin: 12% 0% 13% 8%;
+    font-weight: bolder;
+}
+
+.contact-info figure{
+    margin-right:2%;
+
+}
+
+
+
+.office{
+    margin: 2% 0% 10% 8%;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+
+
+.address,.mail,.phone{
+    display: flex;
+    margin: 2% 0% 5% 8%;
+    /* align-items: center; */
+}
+
+.address div,.mail div,.phone div{
+    font-size:26px;
+    font-family:'Lexend', sans-serif;
+}
+
+.address div{
+    width:253px;
+}
+
+.social-media figure{
+    margin-left:8%;
+    margin-top:10%;
+}
+
+.social-media figure img{
+    margin-right:5%;
 }
 
 .form-page{
@@ -467,34 +513,36 @@ h1{
     justify-content:space-around;
     height:100%;
     margin-left:16%;
-    width: 1297px;
+    width: 74%;
 }
 
 .form-page .form{
     height: 100%;
-    width: 590px;
+    width: 45%;
     /* text-align: center; */
-    margin-left: 621px;
-    margin-top:87px;
+    margin-left: 51%;
+    margin-top: 7%;
 }
 
 .form-heading h2{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color:white;
     font-size: 50px;
+    font-weight:bolder;
 
 }
 
 .sub-heading{
-    width:71%;
-    color:white;
-    margin-bottom: 22px;
+    width: 71%;
+    color: white;
+    margin-bottom: 4%;
+    font-family: 'Lexend', sans-serif;
     font-weight: bolder;
 }
 
 .field{
     
-    height: 58px;
+    height: 71px;
     margin-bottom: 4.5%;
 }
 
@@ -507,7 +555,7 @@ h1{
 }
 
 textarea{
-    width: 435px;
+    width: 74%;
     height: 147px;
     padding:6% 5%;
     border-radius:9px;
@@ -515,18 +563,140 @@ textarea{
 
 .submit{
   margin-top:6%;
-  width:107px;
+  /* width:107px; */
   height:44px;
 }
 
 .submit input{
     height:100%;
-    width:156px;
+    width:32%;
     background-color:#643730;
     color:white;
     border-radius:21px;
     font-size:18px;
 }
+
+
+
+/* CSS for footer section */
+
+.white{
+    color:white;
+    font-family: 'Lexend', sans-serif;
+}
+
+
+.footer-section{
+    height: 538px;
+    border:2px solid black;
+    margin-top:2%;
+}
+
+.footer-container{
+    height:500px;
+    border:2px solid cyan;
+    margin-top:7%;
+    background-color:black;
+}
+
+.left div{
+    
+    font-size: 26px;
+    font-family: 'Lexend', sans-serif;
+    margin-top: 7%;
+}
+
+.left{
+    width: 28%;
+    margin-left: 12%;
+}
+
+.upper{
+    display:flex;
+   
+
+}
+
+.upper-box{
+   
+    margin-top:2%;
+}
+
+.middle{
+    margin-left:2%;
+}
+
+.middle h2{
+    font-size: 45px;
+    font-weight: bolder;
+    margin-top: 2%;
+    margin-bottom: 18%;
+}
+
+.middle ul{
+    list-style-type:none;
+}
+
+.middle a{
+    text-decoration: none;
+    font-size: 27px;
+    margin-bottom: 7%;
+    font-weight:bolder;
+}
+
+.right{
+    margin-left:6%;
+}
+
+.right h2{
+    font-size: 45px;
+    font-weight: bolder;
+    margin-top: 2%;
+    margin-bottom: 7%;
+}
+
+.news-subtext{
+    font-size:32.5px;
+    font-weight:bolder;
+}
+
+.right div{
+    height: 62px;
+    width: 503px;
+}
+
+.right div input{
+    width:100%;
+    height:100%;
+    border:none;
+    text-align:center;
+}
+
+.email-box{
+    margin-bottom:11%;
+}
+
+.email-box input{
+    
+    font-size:27px;
+}
+
+.right div input[type="submit"]{
+    background-color: #e9b643;
+    color:white;
+    font-size:27px;
+}
+
+.lower{
+    margin-top:4%;
+    text-align:center;
+    font-size: 26px;
+    font-weight:bolder;
+}
+
+
+
+
 
 
 
