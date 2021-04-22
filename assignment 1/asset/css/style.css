@@ -24,16 +24,9 @@ html,body{
     height:100%;
 }
 
-/* .main-wrapper{
-    
-    position:relative;
-    height:100%;
-}  */
-
-
 .container{
-    height: 738px;
-    margin: 189px 2% 0% 2%;
+   width:1766px;
+   margin:0 auto;
 }
 
 
@@ -46,46 +39,53 @@ header{
     top:0;
     left:0;
     z-index:1; 
-    width: 100%;
-    height: 123px;
-    border: 2px solid black; 
-    box-shadow: 2px 2px 2px;
+    width:100%;
+    box-shadow: 0 0 5px 5px lightgray;
     background-color:white;
 }
 
 .head-wrapper{
     
-    width:100%;
-    height: 123px;
+    width:1500px;
+ 
+    margin:0 auto; 
+    padding: 20px 0;
     display:flex;
-    align-items:center;
-     border: 2px solid green; 
-}
-
-.logo-img{
-    margin-left: 10%;
-    margin-right: 4%;
+    
    
 }
 
-.logo-img img{
+.head-wrapper figure{
+     
+  
+   
+    width:30%;
+   
+}
+
+.head-wrapper img{
     width: 101px;
     height: 98px;
+    margin-left: 21px;
 }
 
 nav{
     width:70%;
+   
 }
 
 .nav-items{
     display: flex;
-    justify-content:flex-end;
+   
     align-items:center;
     list-style-type:none; 
+    margin-left:295px;
+    margin-top:13px;
 }
 
 .nav-item{
-    margin: 23px;
+    margin: 23px 0;
+    margin-right: 51px;
 }
 
 a{
@@ -101,22 +101,21 @@ a{
 /* CSS for home section */
 
 .home{
-    height: 929px;
-    border:2px solid black;
-    margin-bottom:2%;
-}
+    padding-top:148px;
+  }
 
 .home-container{
+    padding:50px 0;
     display:flex;
     justify-content:space-around;
-    border:2px solid red;
-  }
+
+}
 
 .left-home-section{
     display: flex;
     flex-direction: column;
-    width: 42%;
-    margin-left: 7%;
+    width: 50%;
+    padding:0 163px;
 }
 
 
@@ -124,13 +123,13 @@ h1{
     font-size: 59px;
     font-family: 'Raleway', sans-serif;
     color: #534847;
-    margin-top: 17%;
+    margin-top: 145px;
 }
 
 .sub-heading{
-    margin-left: 1%;
-    margin-top: 5.5%;
-    width: 76%;
+   
+    margin-top: 46px;
+    width: 594px;
     font-size: 24px;
     font-family: 'Lexend', sans-serif;
     color: #a99b96;
@@ -141,20 +140,24 @@ h1{
 }
 
 .right-home-section{
-    width:40%;
+    width:50%;
+  padding-left:32px;
 }
 
-.right-home-section figure .main-img{
-    width: 98%;
-    height: 740px;
+.right-home-section .main-img{
+    width: 706px;
+    height: 720px;
     
+}
+.right-home-section figure{
+
+    position:relative;
 }
 
 .arrow-bar{
     position: absolute;
-    right: 39px;
-    bottom: -3px;
-    margin-right: 3.3%;
+    right: 0;
+    bottom: 0;
     width: 275px;
     height: 103px;
     display: flex;
@@ -164,51 +167,49 @@ h1{
 }
 
 .arrow{
-    width: 24%;
-    height: 59%;
-    margin: 6% 1.5%;
+    width: 75px;
+  
+    margin: 3px;
 }
 
 /* CSS for about section */
 .about{
-    width: 100%;
-    height: 929px;
-    border:2px solid black;
-    margin-bottom:2%;
+    padding-top:168px;
 }
 
 .about-container{
     display: flex;
-    border:2px solid purple;
+    justify-content:flex-end;
+   position: relative;
 }
 
 .right-about-section{
-    width: 161%;
+  
+    width:80%;
     height: 738px;
-    margin-left: 25%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     background-color: #faf8fb;
-    position: relative;
+   
 }
 
 .about-img{
     position: absolute;
-    right: 80%;
-    top: 10%;
-    width: 50%;
+    left: 4px;
+    top: 72px;
+    width: 686px;
 }
 
 .about-img img{
-    width:100%;
-    height:558px;
+    width:686px;
+ 
 }
 
 .about-heading{
-    margin-bottom: 6%;
-    margin-top: 7%;
-    margin-left: 30%;
+    margin-bottom: 59px;
+    margin-top: 84px;
+    margin-left: 423px;
 }
 
 .about-heading h2{
@@ -220,18 +221,18 @@ h1{
 
 
 .para{
-    margin-bottom: 3%;
-    margin-left: 30%;
-    width: 54%;
+    margin-bottom: 38px;
+    margin-left: 424px;
+    width: 705px;
     font-size: 21px;
     font-family: 'Lexend', sans-serif;
-    color: #b39990;
+    color: #bda18e;
     font-weight: lighter;
     
 }
 
 .button{
-    width: 36%;
+    width: 501px;
     height: 62px;
 }
 
@@ -239,9 +240,9 @@ h1{
 .button button{
     background-color: #e9b643;
     color: white;
-    width: 52%;
-    height: 100%;
-    margin-left: 84%;
+    width: 253px;
+    height: 62px;
+    margin-left: 424px;
     font-size: 20px;
     font-family: 'Lexend', sans-serif;
 }
@@ -249,65 +250,58 @@ h1{
 
 /* CSS for admission section */
 .admission{
-    width:100%;
-    height:927px;
-    border:2px solid black;
-    margin-bottom:2%;
+   
+  
+    padding-top:168px;
     
 }
 
-.admission-container{
-    
-    border:2px solid yellow;
-}
 
 
 
 .admission-main-heading{
-    margin-top: 10%;
-    margin-left: 28%;
+    margin-top: 150px;
+    margin-left: 514px;
     text-align: center;
     
 } 
 
  .admission-main-heading h2{
-    font-size: 59px;
+    font-size: 55px;
     font-family: 'Raleway', sans-serif;
+    font-weight:bolder;
     color: #534847;
-    width: 58%;
+    width: 768px;
     text-align: center;
 } 
 
 
 .admission-icons{
     display: flex;
-    width: 100%;
-    height: 44%;
-    margin-top: 7%;
+   margin-top: 123px;
     justify-content: space-around;
 }
 
 .icon{
-    width: 16%;
-    height: 101%;
     
+    height: 450px;
     text-align: center;
 }
 
 .icon img{
-    height: 31%;
-    width: 46%;
+    width: 150px;
 }
 
  .icon-heading{
-    margin-top: 20%;
-    margin-bottom: 12%;
-    margin-left: 8%;
-    margin-right: 8%;
+    margin-top: 74px;
+    margin-bottom: 33px;
+    margin-left: 24px;
+    margin-right: 14px;
+    width: 154px;
 }
 
 .mid-heading{
-    margin-bottom: 12.5%;
+    margin-bottom: 50px;
 }
 
  .icon-heading h2{
@@ -315,9 +309,10 @@ h1{
 }
 
  .icon-subheading{
-    margin: 0% 19%;
+    width: 168px;
+    margin-left: 14px;
     font-family: 'Lexend', sans-serif;
-    color:#b39990;
+    color: #b39990;
     font-weight: bolder;
 }
 
@@ -325,27 +320,21 @@ h1{
 /* CSS for news and events section */
 
 .news-events{
-    width: 99.8%;
-    height: 929px;
-    border:2px solid black;
-    margin-bottom:2%;
-    
+    padding-top:213px;
 }
 
 .news-events-container{
     display: flex;
     flex-direction: column;
-   
-    border:2px solid orange;
 }
 
 .news-events-heading h2{
-    font-size: 59px;
+    font-size: 55px;
+    font-weight: bolder;
     font-family: 'Raleway', sans-serif;
     color: #534847;
-    width: 58%;
-    text-align:center;
-    margin:2% auto;
+    text-align: center;
+    margin: 50px auto;
 }
 
 .news-images{
@@ -373,7 +362,7 @@ h1{
     bottom: 11px;
     width: 166px;
     height: 28px;
-    padding-top: 8%;
+    padding-top: 20px;
     background-color: #f9f9f9;
     text-align: center;
     font-family: 'Lexend', sans-serif;
@@ -384,10 +373,8 @@ h1{
 
 /* CSS for gallery section */
 .gallery{
-    height:1015px;
-    width:99.8%;
-    border:2px solid black;
-    margin-bottom:2%;
+   
+   padding-top:213px;
 }
 
 .gallery-container{
@@ -395,8 +382,6 @@ h1{
     flex-direction: column;
     background-color: #faf8fb;
     height: 824px;
-    margin: 189px 2% 2% 2%;
-    border:2px solid blue;
 }
 
 .gallery-heading h2{
@@ -404,15 +389,15 @@ h1{
     font-weight: bolder;
     font-family: 'Raleway', sans-serif;
     color: #534847;
-    margin: 2% 10%;
+    margin: 21px 169px;
 
 }
 
 .gallery-subheading{
     font-family: 'Lexend', sans-serif;
-    font-weight:bolder;
-    margin-left: 10%;
-    margin-bottom: 2%;
+    font-weight: bolder;
+    margin-left: 173px;
+    margin-bottom: 32px;
 }
 
 .line{
@@ -426,56 +411,53 @@ h1{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 90%;
-    margin-left: 5%;
+    margin-right: 21px;
 }
 
 .gallery-images img{
-    margin: 1%;
+    margin: 10px;
     width: 454px;
     height:294px;
 }
 
 /* CSS for contact section */
 .contact{
-    height:1093px;
-    border:2px solid black;
+   padding-top:213px;
 }
 
 .contact-container{
-    border:2px solid pink;
     position: relative;
     height:901px;
     
 }
 
 .contact-info{
-    width: 35%;
+    width: 611px;
     height: 693px;
     background-color: white;
     border: 2px solid black;
     position: absolute;
-    top: 11%;
-    left: 10.5%;
+    top: 104px;
+    left: 180px;
     
 }
 
 .contact-info h2{
     font-size: 50px;
     font-family: 'Raleway', sans-serif;
-    margin: 12% 0% 13% 8%;
+    margin: 73px 0 79px 49px;
     font-weight: bolder;
 }
 
 .contact-info figure{
-    margin-right:2%;
+    margin-right:11px;
 
 }
 
 
 
 .office{
-    margin: 2% 0% 10% 8%;
+    margin: 12px 0 61px 49px;
     font-weight: bolder;
     font-size: 30px;
 }
@@ -484,8 +466,7 @@ h1{
 
 .address,.mail,.phone{
     display: flex;
-    margin: 2% 0% 5% 8%;
-    /* align-items: center; */
+    margin: 12px 0 30px 49px;
 }
 
 .address div,.mail div,.phone div{
@@ -498,30 +479,29 @@ h1{
 }
 
 .social-media figure{
-    margin-left:8%;
-    margin-top:10%;
+    margin-left: 49px;
+    margin-top: 61px;
 }
 
 .social-media figure img{
-    margin-right:5%;
+    margin-right:28px;
 }
 
 .form-page{
-    background-color:#eebc76;
-    display:flex;
-    flex-direction:column;
-    justify-content:space-around;
-    height:100%;
-    margin-left:16%;
-    width: 74%;
+    background-color: #eebc76;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 960px;
+    margin-left: 286px;
+    width: 1359px;
 }
 
 .form-page .form{
-    height: 100%;
-    width: 45%;
-    /* text-align: center; */
-    margin-left: 51%;
-    margin-top: 7%;
+    height: 804px;
+    width: 611px;
+    margin-left: 693px;
+    margin-top: 95px;
 }
 
 .form-heading h2{
@@ -529,51 +509,53 @@ h1{
     color:white;
     font-size: 50px;
     font-weight:bolder;
+    margin-bottom:16px;
 
 }
 
-.sub-heading{
-    width: 71%;
+.contact-sub-heading{
     color: white;
-    margin-bottom: 4%;
+    margin-bottom: 24px;
     font-family: 'Lexend', sans-serif;
     font-weight: bolder;
+    font-size: 25px;
+    width: 367px;
 }
 
 .field{
     
     height: 71px;
-    margin-bottom: 4.5%;
+    margin-bottom: 27px;
 }
 
 .field input{
-    width: 78.5%;
-    height: 100%;
+    width: 480px;
+    height: 71px;
     border: none;
-    padding-left: 5%;
-    border-radius:9px;
+    padding-left: 31px;
+    border-radius: 9px;
 }
 
 textarea{
-    width: 74%;
+    width: 452px;
     height: 147px;
-    padding:6% 5%;
-    border-radius:9px;
+    padding: 37px 31px;
+    border-radius: 9px;
 }
 
 .submit{
-  margin-top:6%;
-  /* width:107px; */
+  margin-top:37px;
   height:44px;
 }
 
 .submit input{
-    height:100%;
-    width:32%;
+    height:38px;
+    width:180px;
     background-color:#643730;
     color:white;
     border-radius:21px;
     font-size:18px;
+    cursor:pointer;
 }
 
 
@@ -586,29 +568,25 @@ textarea{
 }
 
 
-.footer-section{
-    height: 538px;
-    border:2px solid black;
-    margin-top:2%;
+footer{
+   
+    
+    padding-top:50px;
+    background-color:black;
+    margin-top:200px;
 }
 
-.footer-container{
-    height:500px;
-    border:2px solid cyan;
-    margin-top:7%;
-    background-color:black;
-}
 
 .left div{
     
     font-size: 26px;
     font-family: 'Lexend', sans-serif;
-    margin-top: 7%;
+    margin-top: 35px;
 }
 
 .left{
-    width: 28%;
-    margin-left: 12%;
+    width: 495px;
+    margin-left: 212px;
 }
 
 .upper{
@@ -619,18 +597,18 @@ textarea{
 
 .upper-box{
    
-    margin-top:2%;
+    margin-top:35px;
 }
 
 .middle{
-    margin-left:2%;
+    margin-left:35px;
 }
 
 .middle h2{
     font-size: 45px;
     font-weight: bolder;
-    margin-top: 2%;
-    margin-bottom: 18%;
+    margin-top: 9px;
+    margin-bottom: 42px;
 }
 
 .middle ul{
@@ -640,19 +618,19 @@ textarea{
 .middle a{
     text-decoration: none;
     font-size: 27px;
-    margin-bottom: 7%;
+    margin-bottom: 16px;
     font-weight:bolder;
 }
 
 .right{
-    margin-left:6%;
+    margin-left:105px;
 }
 
 .right h2{
     font-size: 45px;
     font-weight: bolder;
-    margin-top: 2%;
-    margin-bottom: 7%;
+    margin-top: 10px;
+    margin-bottom: 35px;
 }
 
 .news-subtext{
@@ -666,14 +644,14 @@ textarea{
 }
 
 .right div input{
-    width:100%;
-    height:100%;
-    border:none;
-    text-align:center;
+    width: 503px;
+    height: 62px;
+    border: none;
+    text-align: center;
 }
 
 .email-box{
-    margin-bottom:11%;
+    margin-bottom:56px;
 }
 
 .email-box input{
@@ -685,13 +663,15 @@ textarea{
     background-color: #e9b643;
     color:white;
     font-size:27px;
+    cursor:pointer;
 }
 
 .lower{
-    margin-top:4%;
+    margin-top:70px;
     text-align:center;
     font-size: 26px;
     font-weight:bolder;
+    margin-bottom:80px;
 }
 
 
