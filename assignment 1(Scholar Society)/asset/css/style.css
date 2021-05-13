@@ -1,0 +1,708 @@
+/*-----Reset CSS-----*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.container {
+  width: 1766px;
+  margin: 0 auto;
+}
+
+/* CSS for header section */
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  box-shadow: 0 0 5px 5px lightgray;
+  background-color: white;
+}
+
+.head-wrapper {
+  width: 1500px;
+
+  margin: 0 auto;
+  padding: 20px 0;
+  display: flex;
+}
+
+.head-wrapper figure {
+  width: 30%;
+}
+
+.head-wrapper img {
+  width: 101px;
+  height: 98px;
+  margin-left: 21px;
+}
+
+nav {
+  width: 70%;
+}
+
+.nav-items {
+  display: flex;
+
+  align-items: center;
+  list-style-type: none;
+  margin-left: 295px;
+  margin-top: 13px;
+}
+
+.nav-item {
+  margin: 23px 0;
+  margin-right: 51px;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  font-size: 27px;
+  color: #686868;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* CSS for home section */
+
+.home {
+  padding-top: 148px;
+}
+
+.home-container {
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.left-home-section {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 0 163px;
+}
+
+h1 {
+  font-size: 59px;
+  font-family: "Raleway", sans-serif;
+  color: #534847;
+  margin-top: 145px;
+}
+
+.sub-heading {
+  margin-top: 46px;
+  width: 594px;
+  font-size: 24px;
+  font-family: "Lexend", sans-serif;
+  color: #a99b96;
+}
+
+.golden {
+  color: #eebc76;
+}
+
+.right-home-section {
+  width: 50%;
+  padding-left: 32px;
+}
+
+.right-home-section .main-img {
+  width: 706px;
+  height: 720px;
+}
+.right-home-section figure {
+  position: relative;
+}
+
+.arrow-bar {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 275px;
+  height: 103px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+}
+
+.arrow {
+  width: 75px;
+
+  margin: 3px;
+}
+
+/* CSS for about section */
+
+.about {
+  padding-top: 168px;
+}
+
+.about-container {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.right-about-section {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #faf8fb;
+}
+
+.about-img {
+  position: absolute;
+  left: 4px;
+  top: 72px;
+  width: 686px;
+}
+
+.about-img img {
+  width: 686px;
+}
+
+.about-heading {
+  margin-bottom: 59px;
+  margin-top: 84px;
+  margin-left: 423px;
+}
+
+.about-heading h2 {
+  font-size: 64px;
+  font-family: "Raleway", sans-serif;
+  color: #534847;
+}
+
+.para {
+  margin-bottom: 38px;
+  margin-left: 424px;
+  width: 705px;
+  font-size: 21px;
+  font-family: "Lexend", sans-serif;
+  color: #bda18e;
+  font-weight: lighter;
+}
+
+.button {
+  width: 501px;
+  height: 62px;
+}
+
+.button button {
+  background-color: #e9b643;
+  color: white;
+  width: 253px;
+  height: 62px;
+  margin-left: 424px;
+  font-size: 20px;
+  font-family: "Lexend", sans-serif;
+  border: hidden;
+}
+
+/* CSS for admission section */
+
+.admission {
+  padding-top: 44px;
+}
+
+.admission-main-heading {
+  margin-top: 150px;
+  margin-left: 514px;
+  text-align: center;
+}
+
+.admission-main-heading h2 {
+  font-size: 55px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bolder;
+  color: #534847;
+  width: 768px;
+  text-align: center;
+}
+
+.admission-icons {
+  display: flex;
+  margin-top: 123px;
+  justify-content: space-around;
+}
+
+.icon {
+  height: 450px;
+  text-align: center;
+}
+
+.icon img {
+  width: 150px;
+}
+
+.icon-heading {
+  margin-top: 74px;
+  margin-bottom: 33px;
+  margin-left: 24px;
+  margin-right: 14px;
+  width: 154px;
+}
+
+.mid-heading {
+  margin-bottom: 50px;
+}
+
+.icon-heading h2 {
+  font-family: "Raleway", sans-serif;
+}
+
+.icon-subheading {
+  width: 168px;
+  margin-left: 14px;
+  font-family: "Lexend", sans-serif;
+  color: #b39990;
+  font-weight: bolder;
+}
+
+/* CSS for news and events section */
+
+.news-events {
+  padding-top: 122px;
+  margin-bottom: 160px;
+}
+
+.news-events-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.news-events-heading h2 {
+  font-size: 55px;
+  font-weight: bolder;
+  font-family: "Raleway", sans-serif;
+  color: #534847;
+  text-align: center;
+  margin: 50px auto;
+}
+
+.news-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.news-images img,
+.news-images figure {
+  margin: 2.5% 4%;
+}
+
+.news-images figure {
+  position: relative;
+}
+
+.carasoul-arrow {
+  height: 60px;
+  width: 60px;
+}
+
+.msg-bar {
+  position: absolute;
+  left: 11px;
+  bottom: 11px;
+  width: 166px;
+  height: 28px;
+  padding-top: 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+  font-family: "Lexend", sans-serif;
+  font-weight: bolder;
+  color: black;
+}
+
+/* CSS for gallery section */
+
+.gallery {
+  padding-top: 150px;
+}
+
+.gallery-wrapper {
+  width: 1831px;
+  margin: 0 auto;
+  background-color: #faf8fb;
+}
+
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery-heading h2 {
+  font-size: 54px;
+  font-weight: bolder;
+  font-family: "Raleway", sans-serif;
+  color: #534847;
+  margin: 21px 169px;
+}
+
+.gallery-subheading {
+  font-family: "Lexend", sans-serif;
+  font-weight: bolder;
+  margin-left: 173px;
+  margin-bottom: 32px;
+}
+
+.line {
+  color: #faf8fb;
+  color: #faf8fb;
+  text-decoration-line: line-through;
+  text-decoration-color: #eebc76;
+}
+
+.gallery-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-right: 21px;
+}
+
+.gallery-images img {
+  margin: 10px;
+  width: 454px;
+  height: 294px;
+}
+
+/* CSS for contact section */
+
+.contact {
+  padding-top: 213px;
+}
+
+.contact-container {
+  position: relative;
+}
+
+.contact-info {
+  width: 611px;
+  height: 693px;
+  background-color: white;
+  border-radius: 9px;
+  box-shadow: -8px 4px 20px lightgrey;
+  position: absolute;
+  top: 104px;
+  left: 180px;
+}
+
+.contact-info h2 {
+  font-size: 50px;
+  font-family: "Raleway", sans-serif;
+  margin: 73px 0 79px 49px;
+  font-weight: bolder;
+}
+
+.contact-info figure {
+  margin-right: 11px;
+}
+
+.office {
+  margin: 12px 0 61px 49px;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.address,
+.mail,
+.phone {
+  display: flex;
+  margin: 12px 0 30px 49px;
+}
+
+.address div,
+.mail div,
+.phone div {
+  font-size: 26px;
+  font-family: "Lexend", sans-serif;
+}
+
+.address div {
+  width: 253px;
+}
+
+.social-media figure {
+  margin-left: 49px;
+  margin-top: 61px;
+}
+
+.social-media figure img {
+  margin-right: 28px;
+}
+
+.form-page {
+  background-color: #eebc76;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 960px;
+  margin-left: 286px;
+  width: 1359px;
+}
+
+.form-page .form {
+  height: 804px;
+  width: 611px;
+  margin-left: 693px;
+  margin-top: 95px;
+}
+
+.form-heading h2 {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 50px;
+  font-weight: bolder;
+  margin-bottom: 16px;
+}
+
+.contact-sub-heading {
+  color: white;
+  margin-bottom: 24px;
+  font-family: "Lexend", sans-serif;
+  font-weight: bolder;
+  font-size: 25px;
+  width: 367px;
+}
+
+.field {
+  height: 71px;
+  margin-bottom: 27px;
+}
+
+.field input {
+  width: 480px;
+  height: 71px;
+  border: none;
+  padding-left: 31px;
+  border-radius: 9px;
+}
+
+textarea {
+  width: 452px;
+  height: 147px;
+  padding: 37px 31px;
+  border-radius: 9px;
+}
+
+.submit {
+  margin-top: 37px;
+  height: 44px;
+}
+
+.submit input {
+  height: 52px;
+  width: 189px;
+  background-color: #643730;
+  color: white;
+  border-radius: 32px;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 3px 0;
+  border: hidden;
+  cursor: pointer;
+}
+
+/* CSS for footer section */
+
+.white {
+  color: white;
+  font-family: "Lexend", sans-serif;
+}
+
+footer {
+  padding-top: 5px;
+  margin-top: 200px;
+}
+
+.footer-wrapper {
+  width: 1831px;
+  margin: 0 auto;
+  background-color: black;
+  padding-bottom: 32px;
+}
+
+.left div {
+  font-size: 20px;
+  font-family: "Lexend", sans-serif;
+  margin-top: 35px;
+}
+
+.left {
+  width: 495px;
+  margin-left: 212px;
+}
+
+.upper {
+  display: flex;
+}
+
+.upper-box {
+  margin-top: 35px;
+}
+
+.middle {
+  margin-left: 35px;
+}
+
+.middle h2 {
+  font-size: 40px;
+  font-weight: bolder;
+  margin-top: 9px;
+  margin-bottom: 42px;
+}
+
+.middle ul {
+  list-style-type: none;
+}
+
+.middle a {
+  text-decoration: none;
+  font-size: 23px;
+  margin-bottom: 16px;
+  font-weight: bolder;
+}
+
+.right {
+  margin-left: 105px;
+}
+
+.right h2 {
+  font-size: 40px;
+  font-weight: bolder;
+  margin-top: 10px;
+  margin-bottom: 35px;
+}
+
+.news-subtext {
+  font-size: 26px;
+  font-weight: bolder;
+}
+
+.right div {
+  height: 62px;
+  width: 503px;
+}
+
+.right div input {
+  width: 503px;
+  height: 62px;
+  border: none;
+  text-align: center;
+}
+
+.email-box {
+  margin-bottom: 56px;
+}
+
+.email-box input {
+  font-size: 27px;
+}
+
+.right div input[type="submit"] {
+  background-color: #e9b643;
+  color: white;
+  font-size: 27px;
+  cursor: pointer;
+}
+
+.lower {
+  margin-top: 70px;
+  text-align: center;
+  font-size: 23px;
+  font-weight: bolder;
+}
